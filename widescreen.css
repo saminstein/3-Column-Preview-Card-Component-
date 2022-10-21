@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@media only screen and (min-width: 800px) {
+    .card {
+        width: 43.75rem;
+        height: 26.25rem;
+        
+    }
+    
+ 
+    [class*="col"] {   /* columns: 1-3 */  
+        float: left;
+        width: 33%;
+        height: 100%;
+    }
+    
+    
+    img {
+        width: 3.75rem;
+        height: 2.25rem;
+    }
+   
+   
+   .sedans {
+       padding: 2rem;
+       font-size: 1.125rem;
+       border-radius: 0.3125rem 0 0 0.3125rem;
+   }
+   
+   
+   p {
+       font-size: 0.75rem;
+       line-height: 1.25rem;
+       margin-top: 1.25rem;
+   }
+    
+   
+   button {
+       margin-top: 6.25rem;
+       padding: 0.625rem 1.875rem;
+   }
+   
+   
+   .suvs {
+       padding: 2rem;
+       font-size: 1.125rem;
+   }
+    
+    
+   .luxury {
+       padding: 2rem;
+       font-size: 1.125;
+       border-radius: 0 0.3125rem 0.3125rem 0;
+   }
+    
+    
+/* Active states */
+   .btn-1:hover {
+       background-color: var(--Bright-orange);
+       border: 1px solid white;
+       color: white;
+       cursor: pointer;
+   }
+    
+    
+   .btn-2:hover {
+       background-color: var(--Dark-cyan);
+       border: 1px solid white;
+       color: white;
+       cursor: pointer;
+    }
+    
+    
+    .btn-3:hover {
+        background-color: var(--Very-dark-cyan);
+        border: 1px solid white;
+        color: white;
+        cursor: pointer;
+    }
+    
+}
